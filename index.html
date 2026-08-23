@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>BrowserVM</title>
+
+		<meta name="description" content="BrowserVM - Linux virtual terminal running in the browser via WebAssembly.">
+		<meta name="application-name" content="BrowserVM" />
+		<meta name="apple-mobile-web-app-title" content="BrowserVM" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="icon" type="image/png" href="favicon.png">
+		<link rel="shortcut icon" href="favicon.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel='stylesheet' href='scrollbar.css'>
+		<!-- Serviceworker script that adds the COI headers to the response headers in cases where the server does not support it. -->
+		<script src="serviceWorker.js"></script>
+		
+		<link href="./_app/immutable/assets/2.CYwNkRC-.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.xC-jHNCy.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/D8dZA4MJ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/B2QSKqcC.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/8N5YGjy-.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.0oiZ_oVg.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CmsKOCeN.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/M8zj6PKv.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.DKjpxqNB.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.CAFMdU4M.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <main class="relative w-full h-full bg-black"> <div class="absolute inset-0 p-1 scrollbar" id="console" data-svelte-h="svelte-8jscos"></div></main> 
+			
+			<script>
+				{
+					__sveltekit_b8n08r = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.xC-jHNCy.js"),
+						import("./_app/immutable/entry/app.0oiZ_oVg.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data: [{type:"data",data:{posts:[{title:"Putting the Ghost in the Shell: integrating Claude Computer Use in WebVM",image:"https://labs.leaningtech.com/_astro/webvm_claude_hero.CZIInCb7_Z1cvQRG.jpg",url:"https://labs.leaningtech.com/blog/webvm-claude"},{title:"CheerpX 1.0: High performance x86 virtualization in the browser via WebAssembly",image:"https://labs.leaningtech.com/_astro/cheerpx1.0.BXrcvdDT_1ef4ta.jpg",url:"https://labs.leaningtech.com/blog/cx-10"},{title:"WebVM 2.0: A complete Linux Desktop Environment in the browser via WebAssembly",image:"https://labs.leaningtech.com/_astro/Webvm2.DV0NK_a8_ZCcp9E.jpg",url:"https://labs.leaningtech.com/blog/webvm-20"},{title:"Join the WebVM: The Hackathon! - A Global Hybrid Event for Developers!",image:"https://labs.leaningtech.com/_astro/hackathon-banner.DQKOSxrD_Z2gcVp2.jpg",url:"https://labs.leaningtech.com/blog/join-the-webvm-hackathon"},{title:"Mini.WebVM: Your own Linux box from Dockerfile, virtualized in the browser via WebAssembly",image:"https://labs.leaningtech.com/_astro/webvm-post.B1Stq2Ca_2mS0VA.jpg",url:"https://labs.leaningtech.com/blog/mini-webvm-your-linux-box-from-dockerfile-via-wasm"},{title:"How we added full networking to WebVM via Tailscale",image:"https://labs.leaningtech.com/_astro/How_we_added_full_networking_to_WebVM_via_Tailscale.SHB7nUC9_ZYvD6L.jpg",url:"https://labs.leaningtech.com/blog/webvm-virtual-machine-with-networking-via-tailscale"},{title:"WebVM: server-less x86 virtual machines in the browser",image:"https://labs.leaningtech.com/_astro/webvm-post.B1Stq2Ca_2mS0VA.jpg",url:"https://labs.leaningtech.com/blog/webvm-server-less-x86-virtual-machines-in-the-browser"}]},uses:{}},null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
